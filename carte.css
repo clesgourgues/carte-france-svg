@@ -3,7 +3,7 @@ body {
 }
 
 #bg {
-  background: url("./gironde.jpg") no-repeat center center fixed;
+  background: url("./assets/gironde2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,6 +62,7 @@ header {
   font-family: "Oswald", sans-serif;
   margin: 20px 0;
   padding: 0 50px;
+  height: 100%;
 }
 .carte {
   display: inline-block;
@@ -110,6 +111,7 @@ g path.disabled:hover {
 #products {
   font-size: 18px;
   width: 50%;
+  height: 100%;
 }
 
 .intro {
@@ -140,5 +142,6 @@ footer a {
   }
   #products {
     width: 100%;
+    margin-top: 163px;
   }
 }

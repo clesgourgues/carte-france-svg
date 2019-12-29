@@ -23,16 +23,16 @@ $(document).ready(function() {
     var content = $('#products-content');
     if (nom === 'Dordogne') {
       contentNode = dordogneContent;
-      contentUrl = 'dordogne.jpg';
+      contentUrl = 'dordogne2.jpg';
     } else if (nom === 'Gironde') {
       contentNode = girondeContent;
-      contentUrl = 'gironde.jpg';
+      contentUrl = 'gironde2.jpg';
     } else if (nom === 'Landes') {
       contentNode = landesContent;
-      contentUrl = 'landes.jpg';
+      contentUrl = 'landes2.jpg';
     } else if (nom === 'Gers') {
       contentNode = gersContent;
-      contentUrl = 'gers.jpg';
+      contentUrl = 'gers2.jpg';
     }
     content.append(contentNode);
     $('#bg')
